@@ -8,9 +8,10 @@ app = Flask(__name__)
 def main():
     return "Hello world!"
 
+
 @app.route('/info')
 def info_page():
-    return INFO
+    return f"Your info -> {INFO}"
 
 
 app.run()
