@@ -1,0 +1,1 @@
+INFO = "This is the info on page info"
