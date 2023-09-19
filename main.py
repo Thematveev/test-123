@@ -14,4 +14,9 @@ def info_page():
     return f"Your info -> {INFO}"
 
 
+@app.route('/calc/<a>/<b>')
+def calc(a, b):
+    return str(int(a) + int(b))
+
+
 app.run()
